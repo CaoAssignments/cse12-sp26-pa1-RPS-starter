@@ -30,7 +30,7 @@ In this class, you may use any programming environment that you would like, but 
     - `RPS.java` - A concrete class that implements the rest of the RPSInterface
     - `RPSTester.java` - A tester containing JUnit tests for the Rock-Paper-Scissors game
     
-    In the `libs` directory, we have also included the `.jar` files needed to run JUnit tests. 
+    In the `lib` directory, we have also included the `.jar` files needed to run JUnit tests. 
 
 2. Compile and run `RPS.java` (`RPSInterface.java` and `RPSAbstract.java` should also compile).  The code should compile and run, but it should only print a message saying that the game is not implemented yet.
     * You can specify a unique set of moves using command line arguments. If no command line arguments are provided, the game will use the default set of moves. See examples under "**Example Output for Part 3**".
@@ -39,14 +39,26 @@ In this class, you may use any programming environment that you would like, but 
 
       Running the tester on UNIX based systems (including a mac):
 
-      * Compile: `javac -cp ../libs/junit-4.13.2.jar:../libs/hamcrest-2.2.jar:. RPSTester.java`
-      * Execute: `java -cp ../libs/junit-4.13.2.jar:../libs/hamcrest-2.2.jar:. org.junit.runner.JUnitCore RPSTester`
+      * Compile: `javac -cp ../lib/junit-4.13.2.jar:../lib/hamcrest-1.3.jar:. RPSTester.java`
+      * Execute: `java -cp ../lib/junit-4.13.2.jar:../lib/hamcrest-1.3.jar:. org.junit.runner.JUnitCore RPSTester`
 
       Running the tester on Windows systems:
 
-      * Compile: `javac -cp ".;..\libs\junit-4.13.2.jar;..\libs\hamcrest-2.2.jar" RPSTester.java`
-      * Execute: `java -cp ".;..\libs\junit-4.13.2.jar;..\libs\hamcrest-2.2.jar" org.junit.runner.JUnitCore RPSTester`
+      * Compile: `javac -cp ".;..\lib\junit-4.13.2.jar;..\lib\hamcrest-1.3.jar" RPSTester.java`
+      * Execute: `java -cp ".;..\lib\junit-4.13.2.jar;..\lib\hamcrest-1.3.jar" org.junit.runner.JUnitCore RPSTester`
 
+
+**NOTE:** These commands assume the following workspace setup:
+
+```
+# Once your file system looks like this, you should open a terminal inside the 'starter' folder
+# You can do this by right-clicking 'starter' in VSCode's `Explorer` tab and clicking 'Open in Integrated Terminal'
++-- lib
+|   +-- hamcrest-core-1.3.jar
+|   +-- junit-4.13.2.jar
++-- starter
+|   ... your code files
+```
 
 ## Part 3: Rock-Paper-Scissors with Inheritance (95 points)
 
