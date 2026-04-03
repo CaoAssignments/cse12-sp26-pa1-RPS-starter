@@ -38,12 +38,12 @@ In this class, you may use any programming environment that you would like, but 
 3. Compile and run `RPSTester.java`.  If you are doing this from the command line and aren’t sure what to type, see below. Make sure you are running these commands from the `starter` directory. You should see most of the tests fail (though a few will pass with the default starter code functionality).
 
 Running the tester on UNIX based systems (including Mac): 
-- Compile: `javac -cp ../lib/junit-4.13.2.jar:../lib/hamcrest-core-1.3.jar:. PublicTester.java`
-- Execute: `java -cp ../lib/junit-4.13.2.jar:../lib/hamcrest-core-1.3.jar:. org.junit.runner.JUnitCore PublicTester`
+- Compile: `javac -cp ../lib/junit-4.13.2.jar:../lib/hamcrest-core-1.3.jar:. RPSTester.java`
+- Execute: `java -cp ../lib/junit-4.13.2.jar:../lib/hamcrest-core-1.3.jar:. org.junit.runner.JUnitCore RPSTester`
 
 Running the tester on Windows systems:
-- Compile: `javac -cp ".;..\lib\junit-4.13.2.jar;..\lib\hamcrest-core-1.3.jar" PublicTester.java`
-- Execute: `java -cp ".;..\lib\junit-4.13.2.jar;..\lib\hamcrest-core-1.3.jar" org.junit.runner.JUnitCore PublicTester`
+- Compile: `javac -cp ".;..\lib\junit-4.13.2.jar;..\lib\hamcrest-core-1.3.jar" RPSTester.java`
+- Execute: `java -cp ".;..\lib\junit-4.13.2.jar;..\lib\hamcrest-core-1.3.jar" org.junit.runner.JUnitCore RPSTester`
 
 
 **NOTE:** These commands assume the following workspace setup:
